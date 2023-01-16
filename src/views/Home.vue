@@ -1,6 +1,7 @@
 <template>
   <div class="home" v-loading="loading">
-    <swiper id="swiperBox" v-bind:options="swiperOption" ref="mySwiper">
+    dss
+    <!-- <swiper id="swiperBox" v-bind:options="swiperOption" ref="mySwiper">
       <swiper-slide class="swiper-slide slide-one">
         <div class="page">
           <h3>科建股份</h3>
@@ -62,7 +63,7 @@
           </div>
         </div>
       </swiper-slide>
-    </swiper>
+    </swiper> -->
   </div>
 </template>
  
