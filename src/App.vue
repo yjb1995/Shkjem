@@ -59,7 +59,7 @@ body {
   padding: 0 36rem !important;
 }
 .el-main {
-  padding: 0  36rem !important;
+  padding: 0 !important;
 }
 
 </style>
