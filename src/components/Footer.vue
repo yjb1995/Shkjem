@@ -1,103 +1,106 @@
 <template>
-    <div>
-        <div class="footer-content">
-    <ul class="content-nav">
-      <li>
-        <p>走进科建</p>
-        <span>发展历程</span>
-        <span>企业文化</span>
-        <span>资质荣誉</span>
-        <span>合作伙伴</span>
-      </li>
-      <li>
-        <p>新闻资讯</p>
-        <span>公司新闻</span>
-        <span>行业动态</span>
-      </li>
-      <li>
-        <p>产品中心</p>
-        <span>介绍视频</span>
-        <span>管理模式</span>
-        <span>平台目标</span>
-        <span>功能模块</span>
-      </li>
-      <li>
-        <p>联系我们</p>
-        <span>邮箱：kejianlml@163.com</span>
-        <span>电话：021-55802368</span>
-        <span>地址：上海市杨浦区翔殷路128号12号楼101</span>
-      </li>
-    </ul>
-    <img src="../assets/img/ercode.png" alt />
-  </div>
-    <div class="copyright">
-        <span>科建版权所有</span>
-    </div>
+    <div class="foot">
+      <div class="foot-content">
+        <div class="loc">
+          <p>301 - 7300 Warden Ave, </br>
+  Markham, ON L3R 9Z6</br>
+  Canada</p>
+          <p>E: info@hrufinancials.com</br>
+  P: (647)360-8996</br>
+  F: (647)360-7669</p>
+        </div>
+        <div v-for="item in menuData" :key="item.main">
+          <p class="main">{{ item.main }}</p>
+          <p class="side" v-for="(sides, index) in item.side" :key="index">{{ sides }}</p>        
+        </div>
+        </div>
+      <div class="copyright">
+        © 2020 by HRU Financials Ltd, HRU Mortgage Investment Corporation. All Rights Reserved.
+      </div>
     </div>
   </template>
   
   <script>
   export default {
     name: "Footer",
-    props: {
-      title: {
-        type: String,
-        default: ""
-      },
-      img: {
-        type: String,
-        default: "../assets/img/bgtop.jpg"
+    data(){
+      return {
+        menuData: [
+          {
+            main: "ABOUT US", 
+            side: ["STABILITY, CONSISTENCY & VISION", "FINANCIAL SECURITIES"]
+          },
+          {
+            main: "INVESTING", 
+            side: ["DIVIDENDS HISTORY"]
+          },
+          {
+            main: "LENDING", 
+            side: ["THE 5 Cs OF CREDIT"]
+          },
+          {
+            main: "FAQ", 
+            side: ["APPROVED APPRAISERS"]
+          }
+        ]
       }
     }
   };
   </script>
   
   <style lang="scss" scoped>
-  .footer {
-    width: 100%;
-    height: 216px;
-    overflow: hidden;
-    background-color: #14679f;
-    &-content {
-      width: 1240px;
-      margin: 0 auto;
-      padding-top: 20px;
+  .foot {
+    padding: 2rem 36rem 0 37.2rem;
+    width: calc(100% - 73.2rem);
+    p{
+      margin: 0;
+      padding: 0;
+    }
+    .foot-content{
+      width: 100%;
+      height: 19.7rem;
       display: flex;
-      justify-content: space-between;
-      .content-nav {
-        display: flex;
-        justify-content: space-around;
-        li {
-          display: flex;
-          flex-direction: column;
-          padding: 0 20px;
-          //justify-content: center;
-          align-items: flex-start;
-          p {
-            font-size: 20px;
-            color: #d4edff;
-            padding: 10px 0;
-          }
-          span {
-            color: #f7f7f7;
-            font-weight: 300;
-            padding: 5px 0;
-          }
+      justify-content: space-around;
+
+      div{
+        // width: 20.5%;
+      }
+      .loc{
+        font-size: 1.6rem;
+        font-family: Helvetica;
+        color: #000000;
+        word-wrap: break-word;
+        word-break: normal;
+        // width: 18%;
+        p{
+          margin-bottom: 2.7rem;
         }
       }
-      img {
-        width: 170px;
-        height: 170px;
-        padding: 10px;
+      .main{
+        font-size: 1.6rem;
+        font-family: Helvetica-Bold, Helvetica;
+        font-weight: bold;
+        color: #000000;
+        text-align: right;
+      }
+      .side{
+        font-size: 1.4rem;
+        font-family: Helvetica-Light, Helvetica;
+        font-weight: 300;
+        color: #000000;
+        text-align: right;
+        margin: 1.2rem 0;
       }
     }
-    .copyright {
-      height: 30px;
-      background: #125688;
-      span {
-        color: #fff;
-        line-height: 30px;
-      }
+    .copyright{
+      border-top: 1px solid #979797;
+      text-align: center;
+      font-size: 1.4rem;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.3);
+      height: 6rem;
+      line-height: 6rem;
     }
   }
   </style>

@@ -86,6 +86,10 @@
         padding: 0;
         border: none !important;
         margin-right: 4rem;
+        .el-menu-item{
+          line-height: 9rem !important;
+          height: 9rem !important;
+        }
         .is-active{
             
             color: #E84F0D !important;
@@ -120,11 +124,16 @@
                     font-weight: bold !important;
                     color: #000000 ;
                     border-bottom: none !important;
+                    height: 9rem !important;
+                    line-height: 9rem !important;
+                    padding: 0 2.4rem !important;
                 }
                 i{
                     font-size: 1.5rem !important;
                     font-weight: 900 !important;
                     color: #000 !important;
+                    margin-left: 0.8rem;
+                    margin-top: -0.3rem;
                 }
                 // height: 1.9rem !important;
                 // line-height: 1.9rem !important;
@@ -145,12 +154,10 @@
         
 //     }
     .el-menu-item{
-        // height: 1.9rem !important;
         font-size: 1.6rem !important;
         font-family: Helvetica-Bold, Helvetica !important;
         font-weight: bold !important;
         color: #000000;
-        // line-height: 1.9rem !important;
         padding: 0 2.4rem !important;
         border-bottom: none !important;
        
