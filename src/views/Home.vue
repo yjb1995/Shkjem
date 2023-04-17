@@ -8,7 +8,7 @@
         <el-button>APPLY NOW</el-button>
       </div>
       <video class="vedio"  autoplay loop muted>
-        <source src="../assets/animate/home.webm" type="video/webm">
+        <!-- <source src="../assets/animate/home.webm" type="video/webm"> -->
         <!-- <embed width="320" height="240" src="movie.swf"> -->
     </video>
     </div>
@@ -20,7 +20,7 @@
         <el-button>APPLY NOW</el-button>
       </div>
       <video class="vedio"  autoplay loop muted>
-        <source src="../assets/animate/home.webm" type="video/webm">
+        <!-- <source src="../assets/animate/home.webm" type="video/webm"> -->
         <!-- <embed width="320" height="240" src="movie.swf"> -->
     </video>
     </div>
@@ -32,7 +32,7 @@
         <el-button>APPLY NOW</el-button>
       </div>
       <video class="vedio"  autoplay loop muted>
-        <source src="../assets/animate/home.webm" type="video/webm">
+        <!-- <source src="../assets/animate/home.webm" type="video/webm"> -->
         <!-- <embed width="320" height="240" src="movie.swf"> -->
     </video>
     </div>
@@ -44,7 +44,7 @@
         <el-button>APPLY NOW</el-button>
       </div>
       <video class="vedio"  autoplay loop muted>
-        <source src="../assets/animate/home.webm" type="video/webm">
+        <!-- <source src="../assets/animate/home.webm" type="video/webm"> -->
         <!-- <embed width="320" height="240" src="movie.swf"> -->
     </video>
     </div>
@@ -56,7 +56,7 @@
         <el-button>APPLY NOW</el-button>
       </div>
       <video class="vedio"  autoplay loop muted>
-        <source src="../assets/animate/home.webm" type="video/webm">
+        <!-- <source src="../assets/animate/home.webm" type="video/webm"> -->
         <!-- <embed width="320" height="240" src="movie.swf"> -->
     </video>
     </div>
