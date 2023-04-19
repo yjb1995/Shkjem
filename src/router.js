@@ -22,22 +22,22 @@ let kejianrouter = new Router({
     {
       path: '/product',
       name: 'product',
-      component: () => import('./views/Product.vue'),
+      component: () => import('./views/Invest.vue'),
     },
     {
       path: '/case',
       name: 'case',
-      component: () => import('./views/Case.vue')
+      component: () => import('./views/Lend.vue')
     },
     {
-      path: '/casedetails/:id',
+      path: '/casedetails',
       name: 'casedetails',
-      component: () => import('./views/CaseDetails.vue')
+      component: () => import('./views/LendDetails.vue')
     },
     {
       path: '/goin',
       name: 'goin',
-      component: () => import('./views/GoIn.vue')
+      component: () => import('./views/Faq.vue')
     },
     {
       path: '/download',

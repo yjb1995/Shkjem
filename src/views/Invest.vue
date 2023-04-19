@@ -2,10 +2,10 @@
   <div>
     <div class="investing-pc" v-loading="loading">
       <div class="text-wrapper">
-        <p class="text-position">BELIEVE IN HR, </br>DEPENDABLE </br>STABILITY</p>
+        <h1 class="text-position">BELIEVE IN HR, </br>DEPENDABLE </br>STABILITY</h1>
       </div>
       <div>
-        <img src="@/assets/Snipaste_2023-04-17_16-54-33.png">
+        <img src="@/assets/img/Snipaste_2023-04-17_16-54-33.png">
       </div>
     </div>
     <!-- 内容主体区 -->
@@ -100,12 +100,12 @@ export default {
   white-space: pre-wrap;
   .text-wrapper {
     width: 47.6rem;
-    font-size: 5rem;
+    font-size: 3rem;
     position: relative;
     .text-position {
       position: absolute;
       margin-top: 50%;
-      transform: translate(20%, -50%);
+      transform: translate(20%, -20%);
     }
   }
   img {
