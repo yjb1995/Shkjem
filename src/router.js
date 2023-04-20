@@ -10,33 +10,33 @@ let kejianrouter = new Router({
       component: () => import('./views/Home.vue')
     },
     {
-      path: '/news',
-      name: 'news',
-      component: () => import('./views/News.vue'),
+      path: '/aboutus',
+      name: 'aboutus',
+      component: () => import('./views/Aboutus.vue'),
     },
     {
-      path: '/newsdetails/:id',
-      name: 'newsdetails',
-      component: () => import('./views/NewsDetails.vue'),
+      path: '/aboutus/securiities',
+      name: 'AboutusDetails',
+      component: () => import('./views/AboutusDetails.vue'),
     },
     {
-      path: '/product',
-      name: 'product',
+      path: '/investing',
+      name: 'investing',
       component: () => import('./views/Invest.vue'),
     },
     {
-      path: '/case',
-      name: 'case',
+      path: '/lending',
+      name: 'lending',
       component: () => import('./views/Lend.vue')
     },
     {
-      path: '/casedetails',
-      name: 'casedetails',
+      path: '/lending/securiities',
+      name: 'ledingDetails',
       component: () => import('./views/LendDetails.vue')
     },
     {
-      path: '/goin',
-      name: 'goin',
+      path: '/faq',
+      name: 'faq',
       component: () => import('./views/Faq.vue')
     },
     {

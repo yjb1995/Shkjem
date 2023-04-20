@@ -28,6 +28,11 @@ Vue.use(VueLazyload, {
   attempt: 1
 });
 
+import BaiduMap from 'vue-baidu-map'
+Vue.use(BaiduMap,{
+  ak:'youAk'
+})
+
 Vue.config.productionTip = false
 
 //设置超时时间

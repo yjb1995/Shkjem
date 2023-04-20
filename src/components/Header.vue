@@ -19,14 +19,14 @@
                     <el-menu-item index="/aboutus/securiities">FINANCIAL SECURITIES</el-menu-item>
                 </el-submenu>
                
-                <el-menu-item index="/product">INVESTING</el-menu-item>
+                <el-menu-item index="/investing">INVESTING</el-menu-item>
                 
-                <el-submenu index="/case" popper-append-to-body>
+                <el-submenu index="/lending" popper-append-to-body>
                     <template slot="title">LENDING</template>
-                    <el-menu-item index="/case">LENDING</el-menu-item>
-                    <el-menu-item index="/casedetails">THE 5 Cs OF CREDIT</el-menu-item>
+                    <el-menu-item index="/lending">LENDING</el-menu-item>
+                    <el-menu-item index="/lending/securiities">THE 5 Cs OF CREDIT</el-menu-item>
                 </el-submenu>
-                <el-menu-item index="/goin">FAQ</el-menu-item>
+                <el-menu-item index="/faq">FAQ</el-menu-item>
         </el-menu>
         <!-- <Menu /> -->
         <div class="login">
